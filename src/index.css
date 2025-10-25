@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    /* Nighters burgundy gradient theme */
+    --background: 0 15% 8%;
+    --foreground: 0 0% 98%;
+
+    --card: 0 20% 12%;
+    --card-foreground: 0 0% 98%;
+
+    --popover: 0 20% 12%;
+    --popover-foreground: 0 0% 98%;
+
+    /* Vibrant pink/red primary */
+    --primary: 348 90% 56%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 0 25% 18%;
+    --secondary-foreground: 0 0% 98%;
+
+    --muted: 0 15% 20%;
+    --muted-foreground: 0 0% 65%;
+
+    --accent: 348 90% 56%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 0 20% 25%;
+    --input: 0 20% 25%;
+    --ring: 348 90% 56%;
+
+    --radius: 0.75rem;
+
+    /* Gradients */
+    --gradient-burgundy: linear-gradient(135deg, hsl(0, 30%, 15%) 0%, hsl(10, 35%, 8%) 100%);
+    --gradient-hero: linear-gradient(180deg, hsl(0, 30%, 15%) 0%, hsl(355, 25%, 10%) 50%, hsl(10, 35%, 8%) 100%);
+    --gradient-card: linear-gradient(135deg, hsl(0, 25%, 13%) 0%, hsl(0, 20%, 10%) 100%);
+    
+    /* Shadows with pink glow */
+    --shadow-glow: 0 10px 40px -10px hsl(348 90% 56% / 0.4);
+    --shadow-card: 0 4px 20px -2px hsl(0 0% 0% / 0.3);
+    
+    /* Animations */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
