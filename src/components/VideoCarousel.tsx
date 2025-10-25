@@ -92,7 +92,7 @@ const VideoEmbed = ({ video, isActive, onVideoEnd }: { video: VideoItem; isActiv
   }, [isActive]);
 
   // Utiliser directement la référence vidéo fournie
-  const videoUrl = video.videoUrl || "/videos/demo-instagram-1.mp4"; // Fallback temporaire
+  const videoUrl = video.videoUrl || "https://zthzfezwbgtyiorf.public.blob.vercel-storage.com/videos/demo-instagram-1.mp4"; // Fallback temporaire
   console.log("🎬 Tentative de chargement:", videoUrl, "pour", video.type);
   console.log("🎬 Vidéo active:", isActive);
 

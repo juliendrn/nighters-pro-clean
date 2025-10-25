@@ -11,42 +11,42 @@ const Index = () => {
     {
       type: "instagram", // Logo Instagram affiché en haut à gauche
       embedUrl: "https://www.instagram.com/reel/DEDRirKoSZt/", // URL pour ouvrir sur Instagram
-      videoUrl: "/videos/demo-instagram-1.mp4", // Référence vers le fichier vidéo hébergé
+      videoUrl: "https://zthzfezwbgtyiorf.public.blob.vercel-storage.com/videos/demo-instagram-1.mp4", // Référence vers le fichier vidéo hébergé
       title: "Pamela - Best club in Paris",
       views: "1.6M vues cumulées", // Champ libre - vous pouvez mettre ce que vous voulez
     },
     {
       type: "instagram", // Logo Instagram affiché en haut à gauche
       embedUrl: "https://www.instagram.com/reel/DPCHU7ijKzj/", // URL pour ouvrir sur Instagram
-      videoUrl: "/videos/demo-instagram-2.mp4", // Référence vers le fichier vidéo hébergé
+      videoUrl: "https://zthzfezwbgtyiorf.public.blob.vercel-storage.com/videos/demo-instagram-2.mp4", // Référence vers le fichier vidéo hébergé
       title: "Bon Voyage by Charles B",
       views: "50K vues cumulées", // Champ libre
     },
     {
       type: "instagram", // Logo TikTok affiché en haut à gauche
       embedUrl: "https://www.instagram.com/reel/DOjbJk1iEaq/", // URL pour ouvrir sur TikTok
-      videoUrl: "/videos/demo-instagram-3.mp4", // Référence vers le fichier vidéo hébergé
+      videoUrl: "https://zthzfezwbgtyiorf.public.blob.vercel-storage.com/videos/demo-instagram-3.mp4", // Référence vers le fichier vidéo hébergé
       title: "5 clubs où sortir",
       views: "385K vues cumulées", // Champ libre
     },
     {
       type: "instagram", // Logo Instagram affiché en haut à gauche
       embedUrl: "https://www.instagram.com/reel/DQH12CBiIYw/", // URL pour ouvrir sur Instagram
-      videoUrl: "/videos/demo-instagram-4.mp4", // Référence vers le fichier vidéo hébergé
+      videoUrl: "https://zthzfezwbgtyiorf.public.blob.vercel-storage.com/videos/demo-instagram-4.mp4", // Référence vers le fichier vidéo hébergé
       title: "Colores @ Chichi",
       views: "10K vues", // Champ libre
     },
     {
       type: "tiktok", // Logo Instagram affiché en haut à gauche
       embedUrl: "https://www.tiktok.com/@nighters.app/video/7550022080033557782", // URL pour ouvrir sur Instagram
-      videoUrl: "/videos/demo-instagram-5.mp4", // Référence vers le fichier vidéo hébergé
+      videoUrl: "https://zthzfezwbgtyiorf.public.blob.vercel-storage.com/videos/demo-instagram-5.mp4", // Référence vers le fichier vidéo hébergé
       title: "Boom Boom - Best club in Paris",
       views: "330K vues", // Champ libre
     },
     {
       type: "tiktok", // Logo Instagram affiché en haut à gauche
       embedUrl: "https://www.tiktok.com/@nighters.app/video/7504022682141510934", // URL pour ouvrir sur Instagram
-      videoUrl: "/videos/demo-instagram-6.mp4", // Référence vers le fichier vidéo hébergé
+      videoUrl: "https://zthzfezwbgtyiorf.public.blob.vercel-storage.com/videos/demo-instagram-6.mp4", // Référence vers le fichier vidéo hébergé
       title: "Gate Club - Best club in Paris",
       views: "1M vues cumulées", // Champ libre
     },
@@ -54,10 +54,10 @@ const Index = () => {
 
   // Images des métriques (screenshots)
   const metricsImages = [
-    "/metrics/1.png",
-    "/metrics/2.png", 
-    "/metrics/3.png",
-    "/metrics/4.png"
+    "https://zthzfezwbgtyiorf.public.blob.vercel-storage.com/metrics/1.png",
+    "https://zthzfezwbgtyiorf.public.blob.vercel-storage.com/metrics/2.png", 
+    "https://zthzfezwbgtyiorf.public.blob.vercel-storage.com/metrics/3.png",
+    "https://zthzfezwbgtyiorf.public.blob.vercel-storage.com/metrics/4.png"
   ];
 
   const plans = [
