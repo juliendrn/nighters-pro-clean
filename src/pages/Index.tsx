@@ -151,10 +151,10 @@ const Index = () => {
         <div className="max-w-6xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {stats.map((stat, index) => (
-              <Card key={index} className="bg-gradient-card border-border/50 p-8 text-center shadow-card">
-                <stat.icon className="w-12 h-12 mx-auto mb-6 text-primary" />
-                <div className="text-4xl font-bold mb-3 text-foreground">{stat.value}</div>
-                <div className="text-lg text-muted-foreground font-medium">{stat.label}</div>
+              <Card key={index} className="bg-gradient-card border-border/50 p-4 md:p-8 text-center shadow-card">
+                <stat.icon className="w-7 h-7 md:w-12 md:h-12 mx-auto mb-4 md:mb-6 text-primary" />
+                <div className="text-2xl md:text-4xl font-bold mb-2 md:mb-3 text-foreground">{stat.value}</div>
+                <div className="text-sm md:text-lg text-muted-foreground font-medium">{stat.label}</div>
               </Card>
             ))}
           </div>
